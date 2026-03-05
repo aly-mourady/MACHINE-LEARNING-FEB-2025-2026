@@ -1,10 +1,17 @@
 {
-    
-{
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "prettier.singleQuote": true,
     "prettier.trailingComma": "all",
     "prettier.tabWidth": 2,
-    "prettier.semi": false
+    "prettier.semi": false,
+    "python.defaultInterpreterPath": "C:\\Users\\aly\\Downloads\\MACHINE-LEARNING-FEB-2025-2026\\.venv\\Scripts\\python.exe",
+    "python.terminal.executeInFileDir": true,
+    "python-envs.pythonProjects": [
+        {
+            "path": "machine-learning1.py",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
 }
