@@ -21,6 +21,6 @@ def main() -> None:
     #the second issue is the date column, as it is a string (the wrong data type for dates)
     df["Date"] = pd.to_datetime(df["Date"])
     df.info()
-
+    
 if __name__ == "__main__":
     main()
